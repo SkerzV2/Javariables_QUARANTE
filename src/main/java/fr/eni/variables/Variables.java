@@ -43,6 +43,7 @@ public class Variables {
         Scanner scanInput  = new Scanner(System.in);
         System.out.print("Saisir une chaîne A : ");
         String strA = scanInput.next();
+        repet(intA,strA);
         System.out.print("Saisir une chaîne B : ");
         String strB = scanInput.next();
         String strAplusB = strA + " " + strB;
@@ -67,4 +68,9 @@ public class Variables {
         // --------------------------------------------------
         
     }
+    public static void repet(int nbRepet,String chaineRepet) {
+        for(int i=0; i<=nbRepet;i++)
+        {
+            System.out.println(chaineRepet);
+      }
 }
